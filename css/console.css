@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #0F0; /* Bright green color */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for that retro feel */
+}
+
+.console {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.retro-radio {
+    max-width: 200px; /* Adjust the size of the radio image as needed */
+    height: auto;
+    display: block; /* Ensures the image is block-level for margin auto to work */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #0F0; /* Bright green border for the whole table */
+    margin-bottom: 30px;
+}
+
+tr, td {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #0F0; /* Bright green borders for cells */
+    text-align: center; /* Center-align the text */
+}
+
+td:hover {
+    background-color: #013220; /* Dark green background on hover for contrast */
+}
