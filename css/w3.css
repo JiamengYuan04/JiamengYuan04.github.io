@@ -1,0 +1,80 @@
+table {
+    font-family: 'Roboto', sans-serif;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.nav-link::first-letter {
+    font-weight: normal;
+    font-size: 1em; 
+}
+
+.a {
+    list-style-type: lower-roman;
+}
+
+.b {
+    list-style-type: lower-alpha;
+}
+
+.c {
+    list-style-type: square;
+}
+
+.d {
+    list-style-type: "$";
+    padding-left: 1.7em;
+}
+
+.d li {
+    padding-left: 5px; 
+}
+
+.e {
+    list-style-type: circle; 
+}
+
+.e li {
+    color: black; /* This ensures text in `.e` list items remains black */
+}
+
+.f {
+    list-style-type: circle; 
+    color: black;
+}
+
+.custom::after {
+    content: "Chicago Cubs";
+    color:#1e6fc4
+  }
+
+.custom2::after {
+    content: "Hanshin Tigers";
+    color:#1e6fc4
+  }
+
+
+.custom3::after {
+    content: "Kane County Cougars";
+    color:#1e6fc4
+  }
+
+.custom-link {
+    text-decoration: none;
+    color: #074485; 
+}
+
+.custom-link:visited {
+    color: #9d2eb9; 
+}
+
+.custom-link:hover {
+    color: #4e88c7;
+}
+
+li:not(.nav-link):not(.e li):not(.f li):not(.category)::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+}

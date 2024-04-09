@@ -1,0 +1,63 @@
+// Define UChicago color variables
+$uchicago-maroon: #800000;
+$uchicago-gray: #767676;
+$uchicago-light-gray: #D6D6CE;
+$uchicago-accent: #DAA520; 
+
+// Mixin for flexbox centering
+@mixin flex-center($direction: column) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+// Function to lighten or darken a color
+@function shift-color($color, $amount) {
+  @return mix(if($amount > 0, white, black), $color, abs($amount));
+}
+
+// Base styles
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; 
+  color: $uchicago-gray; 
+}
+
+// Header styles
+.header {
+  background-color: $uchicago-maroon;
+  color: #fff; 
+  @include flex-center();
+  padding: 20px 0;
+  h1 {
+    margin: 0;
+    font-size: 2.5rem; 
+  }
+}
+
+// Main content styles
+.content {
+  padding: 20px;
+  p {
+    margin: 0;
+    font-size: 1rem; 
+  }
+}
+
+// Footer styles
+.footer {
+  background-color: $uchicago-light-gray; 
+  @include flex-center();
+  padding: 10px 20px;
+  p {
+    margin: 0;
+    font-size: 0.875rem; 
+    &:hover {
+      color: shift-color($uchicago-gray, 20%); 
+    }
+  }
+}
+
