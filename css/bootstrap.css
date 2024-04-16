@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-image: url('https://images.unsplash.com/photo-1554147090-e1221a04a025?q=80&w=2648&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Update with your actual image path */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #dfc9f1; /* Bootstrap primary blue */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #7a3994 !important; /* Ensuring the brand pops out */
+}
+
+.nav-link {
+    color: #9a6ed9 !important; /* Light text for readability */
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #cce5ff !important; /* Lighter blue on hover/focus for better interaction feedback */
+}
+
+
+.container {
+    padding-top: 20px;
+}
+
+
+.background {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.background:hover {
+    background-color: #ecdbe6;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+.gutter-row {
+    margin: 20px -15px;
+}
+
+.row {
+    opacity: 0.6; 
+}
+
+.custom-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.custom-button:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+
+#changeButton:hover {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    .background {
+        margin-bottom: 20px;
+    }
+
+    .custom-button {
+        width: 100%;
+    }
+}
+
