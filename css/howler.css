@@ -13,10 +13,10 @@ body {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background: #a2c9e7;
-  background: -moz-linear-gradient(-45deg, #aed8fd 0%, #3d4d91 100%);
-  background: -webkit-linear-gradient(-45deg, #97d7e7 0%, #3d4d91 100%);
-  background: linear-gradient(135deg, #9ec2eb 0%, #3d4d91 100%);
+  background: #c8dbe9;
+  background: -moz-linear-gradient(-45deg, #9ee1ef 0%, #3d4d91 100%);
+  background: -webkit-linear-gradient(-45deg, #e0ccf1 0%, #3d4d91 100%);
+  background: linear-gradient(135deg, #dcc8ec 0%, #3d4d91 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bb71f3', endColorstr='#3d4d91', GradientType=1);
   font-family: "Helvetica Neue", "Futura", "Trebuchet MS", Arial;
   -webkit-user-select: none;

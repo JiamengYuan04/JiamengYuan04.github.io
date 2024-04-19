@@ -259,18 +259,18 @@ Player.prototype = {
 // Setup our new audio player class and pass it the playlist.
 var player = new Player([
   {
-    title: 'Last Dance - BIGBANG',
-    file: 'lastdance',
+    title: 'EDM',
+    file: 'edm',
     howl: null
   },
   {
-    title: 'Luv(sic.), Pt.3 - Nujabes',
-    file: 'luvsicpt3', 
+    title: 'Techno 01',
+    file: 'techno01', 
     howl: null
   },
   {
-    title: 'Samsara - Anyma',
-    file: 'samsara',
+    title: 'Techno 02',
+    file: 'techno02',
     howl: null
   }
 ]);
