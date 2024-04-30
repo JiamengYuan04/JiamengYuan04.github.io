@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faeded;
+}
+
+#map {
+    height: 500px; /* Height of the map */
+    width: 100%; /* Width of the map */
+    border: 1px solid #ccc; /* Border around the map */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow around the map */
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 0;
+    color: #444;
+}
