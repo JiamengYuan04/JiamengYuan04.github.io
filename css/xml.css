@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+body {
+  text-align: center;
+  background-color: #D6D6CE;
+  color: #800000;
+  font-family: 'Arial', serif;
+  padding-bottom: 200px;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    border: none;       
+    box-shadow: none;    
+    outline: none;        
+}
+
+.navbar-brand {
+    font-family: cursive;
+}
+
+
+nav {
+  background-color: #800000;
+  color: #FFFFFF;
+}
+
+#Tech_dropdown {
+  background-color: #800000;
+}
+
+#M_dropdown {
+  background-color: #800000;
+}
+
+.dropdown-menu {
+  background-color: #800000;
+}
+
+.dropdown-item {
+  color: #FFFFFF;
+}
+
+.navbar-brand {
+  color: #FFFFFF;
+}
+
+.nav-link {
+  color: #FFFFFF;
+}
+
+.container {
+  width: 75%;
+}
