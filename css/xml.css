@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
 body {
   text-align: center;
   background-color: #D6D6CE;
@@ -10,13 +10,16 @@ body {
 .btn.btn-secondary.dropdown-toggle {
     border: none;       
     box-shadow: none;    
-    outline: none;        
+    outline: none;   
 }
 
 .navbar-brand {
     font-family: cursive;
 }
 
+.btn, .button {
+  color: #611b81;
+}
 
 nav {
   background-color: #800000;
