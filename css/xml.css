@@ -7,48 +7,9 @@ body {
   padding-bottom: 200px;
 }
 
-.btn.btn-secondary.dropdown-toggle {
-    border: none;       
-    box-shadow: none;    
-    outline: none;   
-}
-
-.navbar-brand {
-    font-family: cursive;
-}
-
-.button {
-  color: #611b81;
-}
-
-nav {
-  background-color: #800000;
-  color: #FFFFFF;
-}
-
-#Tech_dropdown {
-  background-color: #800000;
-}
-
-#M_dropdown {
-  background-color: #800000;
-}
-
-.dropdown-menu {
-  background-color: #800000;
-}
-
-.dropdown-item {
-  color: #FFFFFF;
-}
-
-.navbar-brand {
-  color: #FFFFFF;
-}
-
-.nav-link {
-  color: #FFFFFF;
-}
+.navbar { background-color: #800000; padding-left: 20px;}
+.nav-link, .navbar-brand { color: #fff; }
+.navbar-brand {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 .container {
   width: 75%;
