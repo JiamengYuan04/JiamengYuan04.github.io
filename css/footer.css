@@ -1,0 +1,24 @@
+.footer {
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.linkedin-icon {
+    width: 30px; 
+    height: auto;
+}
